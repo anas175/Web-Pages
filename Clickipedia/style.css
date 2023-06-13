@@ -1,0 +1,176 @@
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.brn-cl {
+    color: rgba(105, 6, 6, 0.9);
+}
+
+.m-cl {
+    color: rgb(197 5 5 / 90%);
+
+}
+
+.active:hover {
+    color: rgb(197 5 5 / 90%) !important;
+    /* text-decoration: underline; */
+    border-bottom: 2px solid rgb(197 5 5 / 90%);
+}
+
+.navbar-toggler,
+.navbar-light {
+    color: rgba(105, 6, 6, 0.9) !important;
+    border-color: rgba(105, 6, 6, 0.9) !important;
+}
+
+.first-sec {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.nav-item {
+    font-weight: 500;
+}
+
+.btn-outline-danger {
+    color: rgba(105, 6, 6, 0.9);
+    border: none;
+    background-color: transparent;
+}
+
+.btn-outline-danger:hover {
+    background-color: rgba(105, 6, 6, 0.9);
+}
+
+.bar {
+    background-color: rgba(105, 6, 6, 0.9);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 50px;
+    margin: 40px;
+    border: 5px solid darkgoldenrod;
+}
+
+
+.explorebtn {
+    font-weight: 600;
+    background-color: rgba(105, 6, 6, 0.9);
+    border: 2px solid rgba(105, 6, 6, 0.9);
+    padding: 8px 35px;
+    border-radius: 40px;
+    color: white;
+}
+
+.explorebtn:hover {
+    background-color: white;
+    color: rgba(105, 6, 6, 0.9);
+
+}
+
+.cards {
+    /* padding: 0 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.circle {
+    align-self: center;
+    position: inherit;
+    bottom: -35px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.owner-pic {
+    align-self: center;
+    border-radius: 50%;
+    background-color: gray;
+    height: 250px;
+    width: 250px;
+
+}
+
+.basket {
+    border-radius: 50%;
+    background-image: url('images/main-sweets.jpg');
+    height: 250px;
+    width: 250px;
+    /* margin-top: 40px; */
+    background-size: cover;
+
+}
+
+.owl-carousel .item {
+    height: 10rem;
+}
+
+.owl-nav,
+.owl-theme {
+    display: none;
+}
+
+.owl-dots {
+    background-color: #781e1e87;
+}
+
+.footer-bar {
+    color: darkgoldenrod;
+    padding: 20px 15px;
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media (max-width:767px) {
+    .footer-bar {
+        padding: 5px 15px;
+    }
+
+    .bar {
+        border-radius: 30px;
+        flex-direction: column;
+    }
+
+    .cards {
+        /* padding: 10px; */
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .first-sec {
+        flex-direction: column-reverse;
+    }
+
+}
